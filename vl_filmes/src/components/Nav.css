@@ -1,0 +1,43 @@
+nav.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: var(--grey-color);
+}
+
+nav.nav h2 a {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+nav.nav form {
+    display: flex;
+    gap: .5rem;
+}
+
+nav.nav input {
+    padding: 0.2rem 0.8rem;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+}
+
+nav.nav form button {
+    background-color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+    border-radius: 4px;
+    color: var(--white-color);
+    padding: .3rem;
+    font-size: 1rem;
+    display: flex;
+    cursor: pointer;
+    transition: .4s;
+}
+
+nav.nav form button:hover {
+    background-color: var(--primary-color-hover);
+    border: 2px solid var(--primary-color-hover);
+    color: var(--black-color);
+}
